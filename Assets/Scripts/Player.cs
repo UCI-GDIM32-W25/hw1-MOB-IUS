@@ -14,8 +14,12 @@ public class Player : MonoBehaviour
 
     private void Start ()
     {
-        // Update UI information
+        // Initialize seeds left and planted
+        _numSeedsLeft = _numSeeds;
+        _numSeedsPlanted = 0;
         
+        // Update UI information
+        _plantCountUI.UpdateSeeds(_numSeedsLeft, _numSeedsPlanted);
     }
 
     private void Update()
@@ -48,10 +52,11 @@ public class Player : MonoBehaviour
         {
             // Plant
             Instantiate(_plantPrefab, _playerTransform.position, Quaternion.identity);
-            _numSeeds--;
-                
+            _numSeedsLeft--;
+            _numSeedsPlanted++;
+
             // Update UI
-            
+            _plantCountUI.UpdateSeeds(_numSeedsLeft, _numSeedsPlanted);
         }
     }
 }
