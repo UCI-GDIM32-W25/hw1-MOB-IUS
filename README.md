@@ -4,20 +4,22 @@
 
 Player:
 
-    1. Movement controlled by WASD
-    2. SPACE to plant
-    3. No border restrictions
+1. Movement controlled by WASD
+2. SPACE to plant
+3. No border restrictions
 
 UI:
-    (4) Plant seeds remaining starts at 5
-    When SPACE is hit:
-    (5) Plant seeds remaining decrease by 1 if there are remaining seeds
-    (6) Plants planted increases by 1 if there are remaining seeds
-    (7) Nothing happens if there is no remaining seed  
+
+4. Plant seeds remaining starts at 5
+When SPACE is hit:
+5. Plant seeds remaining decrease by 1 if there are remaining seeds
+6. Plants planted increases by 1 if there are remaining seeds
+7. Nothing happens if there is no remaining seed  
 
 Plant:
-    (8) Generated at the position of the player when SPACE is hit and there are remaining seeds
-    (9) No movement or collision with the player
+
+8. Generated at the position of the player when SPACE is hit and there are remaining seeds
+9. No movement or collision with the player
 
 
 ## Devlog
