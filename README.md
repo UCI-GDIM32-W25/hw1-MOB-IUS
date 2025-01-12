@@ -3,9 +3,10 @@
 ## W1L2 In-Class Activity
 
 Player:
-    (1) Movement controlled by WASD
-    (2) SPACE to plant
-    (3) No border restrictions
+
+    1. Movement controlled by WASD
+    2. SPACE to plant
+    3. No border restrictions
 
 UI:
     (4) Plant seeds remaining starts at 5
