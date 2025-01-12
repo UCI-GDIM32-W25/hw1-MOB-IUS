@@ -18,16 +18,18 @@ When SPACE is hit:
 
 Plant:
 
-8. Generated at the position of the player when SPACE is hit and there are remaining seeds
+8. Gameobject generated from prefab at the position of the player when SPACE is hit and there are remaining seeds
 9. No movement or collision with the player
 
 
 ## Devlog
-Prompt: Include the HW1 break-down exercise you wrote during the Week 1 - Lecture 2 (Jan 9) in-class activity (above). If you did not attend and perform this activity, review the lecture slides and write 
-your own plan for how you believe HW1 should be built. If your initially proposed plan turned out significantly different than the activity answers given by Prof Reid, you may want to note what was different.
-Then, write about how the plan you wrote in the break-down connects to the code you wrote. Cite specific class names and method names in the code and GameObjects in your Unity Scene.
-
-
+My break down is different from Prof Reid's in that mine is less detailed. I may want to add in more details next time when writing the break down. I find my break down connects to the code I write. When I am
+implementing the player behaviors, I find that my bullets 1 and 2 connect to the _Update_ function in _Player_ class. The bullet 3 is a feature that needs no additional implementation. When implementing UI,
+I find that there should be connection between _Player_ and _PlantCountUI_ classes. I first implemented _UpdateSeeds_ function in _PlantCountUI_ class so I can use it as a method as a black box in the _Player_
+script. This is a underlined function not specifically mentioned in my break down. My bullets 4 associates with the _Start_ function in _Player_ class. My bullets 5 to 7 connect with _PlantSeed_ function in
+the _Player_ class. Bullet 7 makes it necessay to use a if statement to check number of remaining seeds in _PlantSeed_ function. The last thing I implemented is the plant prefab. My bullet 8 connects with the
+plant prefab I made, which is connected to variable _plantPrefab_ in _Player_ class through Unity inspector. My bullet 9 is a feature of the plant which needs no additional implementation. Through homework 1, 
+I find break down very useful in helping me organize the work.
 
 
 
