@@ -23,16 +23,11 @@ Plant:
 
 
 ## Devlog
-My break down is different from Prof Reid's in that mine is less detailed. I may want to add in more details next time when writing the break down. I find my break down connects to the code I write. When I am
-implementing the player behaviors, I find that my bullets 1 and 2 connect to the _Update_ function in _Player_ class. The bullet 3 is a feature that needs no additional implementation. When implementing UI,
-I find that there should be connection between _Player_ and _PlantCountUI_ classes. I first implemented _UpdateSeeds_ function in _PlantCountUI_ class so I can use it as a method as a black box in the _Player_
-script. This is a underlined function not specifically mentioned in my break down. My bullets 4 associates with the _Start_ function in _Player_ class. My bullets 5 to 7 connect with _PlantSeed_ function in
-the _Player_ class. Bullet 7 makes it necessay to use a if statement to check number of remaining seeds in _PlantSeed_ function. The last thing I implemented is the plant prefab. My bullet 8 connects with the
-plant prefab I made, which is connected to variable _plantPrefab_ in _Player_ class through Unity inspector. My bullet 9 is a feature of the plant which needs no additional implementation. Through homework 1, 
-I find break down very useful in helping me organize the work.
-
-
+My break down is different from Prof Reid's in that mine is less detailed. I may want to add in more details next time when writing the break down. I find my break down connects to the code I write. When I am implementing the player behaviors, I find that my bullets 1 and 2 connect to the _Update_ function in _Player_ class. The bullet 3 is a feature that needs no additional implementation. When implementing UI, I find that there should be connection between _Player_ and _PlantCountUI_ classes. I first implemented _UpdateSeeds_ function in _PlantCountUI_ class so I can use it as a method as a black box in the _Player_ script. This is a underlined function not specifically mentioned in my break down. My bullets 4 associates with the _Start_ function in _Player_ class. My bullets 5 to 7 connect with _PlantSeed_ function in the _Player_ class. Bullet 7 makes it necessay to use a if statement to check number of remaining seeds in _PlantSeed_ function. The last thing I implemented is the plant prefab. My bullet 8 connects with the plant prefab I made, which is connected to variable _plantPrefab_ in _Player_ class through Unity inspector. My bullet 9 is a feature of the plant which needs no additional implementation. Through homework 1, I find break down very useful in helping me organize the work.
 
 ## Open-Source Assets
 If you added any other outside assets, list them here!
 - [Sprout Lands sprite asset pack](https://cupnooble.itch.io/sprout-lands-asset-pack) - character and item sprites
+
+## Prof comments
+Thank you for carefully reading and answering the Devlog prompt! :) I'm also glad the breakdown was useful, and I'm interested to see if the HW2 activty is also helpful for you or not. I also appreciate the formatting that you added- please continue to format your Devlogs this well, it really helps the grading team read them.
